@@ -11,6 +11,7 @@ import Portfolio from "./components/portfolio";
 import Header from "./components/header"
 import Footer from "./components/footer"
 import Contact from "./components/contactus"
+import Home from "./components/home"
 
 
 
@@ -22,17 +23,20 @@ function App() {
 
       
         <Switch>
+        <Route path="/home">
+            <Home/>
+          </Route>
           <Route path="/about">
             <About />
           </Route>
           <Route path="/portfolio">
             <Portfolio />
           </Route>
-          <Route path="/">
-            <About />
-          </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/">
+            <Home />
           </Route>
         </Switch>
           <Footer/>
