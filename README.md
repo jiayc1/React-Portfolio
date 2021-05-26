@@ -7,6 +7,9 @@ Packages:
 
 1. react router 
 
+API: 
+
+1. email.js
 
 Deployed site: 
 
